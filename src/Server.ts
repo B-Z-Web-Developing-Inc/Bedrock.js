@@ -31,7 +31,7 @@ export default class Server extends EventEmitter {
   constructor(options: ServerOptions, bind: boolean = true) {
     super()
 
-    this.ip = options.address || '0.0.0.0'
+    this.ip = options.address || '192.168.254.84'
     this.port = options.port || 19132
     this.name = options.name
     this.maxPlayers = options.maxPlayers || 50
